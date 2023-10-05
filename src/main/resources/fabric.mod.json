@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "kauflandhotdog",
+	"version": "${version}",
+	"name": "KauflandHotdog",
+	"description": "kaufland...",
+	"authors": [
+		"hugobugomugo"
+	],
+	"license": "MIT",
+	"icon": "assets/kauflandhotdog/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "de.hugobugomugo.kauflandhotdog.KauflandHotdog"
+		],
+		"fabric-datagen": [
+          "de.hugobugomugo.kauflandhotdog.KauflandHotdogDataGenerator"
+		],
+		"client": [
+			"de.hugobugomugo.kauflandhotdog.KauflandHotdogClient"
+		]
+	},
+	"mixins": [
+		"kauflandhotdog.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:bread"
+    },
+    "N": {
+      "item": "minecraft:nether_wart"
+    },
+    "P": {
+      "item": "minecraft:cooked_porkchop"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " R ",
+    "NPN",
+    "###"
+  ],
+  "result": {
+    "item": "kauflandhotdog:kauflandhotdog"
+  },
+  "show_notification": true
+}
